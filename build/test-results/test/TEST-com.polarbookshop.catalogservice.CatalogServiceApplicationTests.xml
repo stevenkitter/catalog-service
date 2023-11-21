@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-21T03:06:21" hostname="wangdeMacBook-Pro.local" time="1.092">
+  <properties/>
+  <testcase name="whenPostRequestThenBookCreated()" classname="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" time="1.088"/>
+  <testcase name="contextLoads()" classname="com.polarbookshop.catalogservice.CatalogServiceApplicationTests" time="0.003"/>
+  <system-out><![CDATA[11:06:19.359 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.polarbookshop.catalogservice.CatalogServiceApplicationTests]: CatalogServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:06:19.470 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.polarbookshop.catalogservice.CatalogServiceApplication for test class com.polarbookshop.catalogservice.CatalogServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-11-21T11:06:19.953+08:00  INFO 8546 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Starting CatalogServiceApplicationTests using Java 17.0.9 with PID 8546 (started by wangxu in /Users/wangxu/work/platform/pros/catalog-service)
+2023-11-21T11:06:19.955+08:00  INFO 8546 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-11-21T11:06:20.973+08:00  INFO 8546 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-11-21T11:06:20.984+08:00  INFO 8546 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21T11:06:20.984+08:00  INFO 8546 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-21T11:06:21.084+08:00  INFO 8546 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-21T11:06:21.086+08:00  INFO 8546 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2023-11-21T11:06:21.567+08:00  INFO 8546 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52577 (http) with context path ''
+2023-11-21T11:06:21.575+08:00  INFO 8546 --- [    Test worker] c.p.c.CatalogServiceApplicationTests     : Started CatalogServiceApplicationTests in 1.892 seconds (process running for 3.055)
+2023-11-21T11:06:22.610+08:00  INFO 8546 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21T11:06:22.610+08:00  INFO 8546 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21T11:06:22.611+08:00  INFO 8546 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
